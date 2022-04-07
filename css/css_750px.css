@@ -1,0 +1,46 @@
+@media only screen and (min-width: 501px) and (max-width: 750px){
+    .obrazok_uvod{
+        width: 130%; 
+        padding-right: 10vmin;  
+    }
+
+    .uvod_index{
+        padding-top: 10px;
+    }
+
+    .section-1{
+        padding: 5vmin;
+    }
+    .panel{
+        width: 120%;
+        top: 20px;
+        right: 20px;
+    }
+
+    
+    .uvod_samsung_obrazok{
+        width: 150%;
+        padding-right: 10vmin;
+    }
+
+    .uvod_samsung_nadpis{
+        padding-left: 10vmin;
+    }
+
+    .uvod_samsung_text{
+        width: 130%;
+        padding-left: 10vmin;
+    }
+
+    .uvod_iphone_obrazok{
+        width: 110%;
+    }
+
+    .uvod_iphone_text{
+        width: 130%;
+        padding-left: 10vmin;
+    }
+
+   
+
+}   

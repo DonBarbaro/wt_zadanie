@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Tajawal:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+/*{
+    box-sizing: border-box;
+}*/
+
+header{
+    overflow-x: hidden;
+}
+section{
+    overflow-x: hidden;
+}
+
+:root{
+    --Osawald:"Oswald",cursive;
+    --Tajawal:"Tajawal",cursive;
+    --Architect:"Architects+Daughter",cursive;
+    --Caveat:"Caveat",cursive;
+    --lightblue:#3476ef;
+    --bckgound: linear-gradient(
+        to right,
+        #1297a8,#b89b9b);
+    --light-gray:rgba(255,255,255,0.877) 
+}
+/*--------------------NAVBAR--------------------*/
+header a{
+    font-family: var(--Tajawal);
+    font-size: 1.5em;
+    color: whitesmoke; 
+}
+
+header{
+    background: var(--bckgound);
+}
+
+header .nav-item:last-child{
+    padding-right: 2em;
+}
+
+header .nav-item{
+    padding: 0.5em;
+}
+
+header .navbar-brand{
+    font-size: 30px;
+    padding-left: 1vmin;
+}
+
+header .nav-link:hover{
+    color: rgb(11, 198, 204);
+}
+.fa.fa-mobile-phone{
+    color: whitesmoke;
+    padding-left: 5vmin;
+}
+/*------------------SMARTPHONE UVOD OBRAZOK---------------------*/
+.obrazok_uvod{
+    width: auto;
+    height: auto;
+    padding-bottom: 22vmin; 
+}
+
+/*--------------------SMARTPHONE UVOD TEXT--------------------*/
+.uvod_index{
+    font-family: var(--Osawald);
+    font-size: 22px;
+    padding-top: 10vmin;
+}
+
+.nadpis_uvod{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+/*--------------------SEKCIA 1--------------------*/
+.section-1{
+    padding: 15vmin;
+}
+
+.person{
+    position: relative;
+    opacity: 0.9;
+    width: 100%;
+    border-radius: 5em 0.5em 5em 5em;
+    box-shadow: 0px 20px 20px 32px rgba(0, 0, 0, 0.2);
+}
+
+.panel{
+    position: relative;
+    top: 7vmin;
+    left: -10vmin;
+    background: white;
+    border-radius: 20px;
+    text-align: left;
+    padding: 5vmin 5vmin 5vmin 5vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+}
+.napis_panel{
+    font-family: var(--Caveat);
+ }
+
+.text_panel{
+    font-family: var(--Architect);
+    font-size: 20px;
+}
+/*--------------------FOOTER--------------------*/
+footer{
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+}
+
+.futer{
+    padding-left: 5vmin;
+}
+
+/*--------------------SAMSUNG UVOD TEXT--------------------*/
+.uvod_samsung_nadpis{
+    font-family: var(--Architect);
+    font-weight: bold;
+    color: black;
+}
+.uvod_samsung_text{
+    padding: 5vmin;
+    font-family: var(--Tajawal);
+    padding-left: 20vmin;
+    color: black;
+    font-size: 20px;
+}
+
+/*--------------------SAMSUNG UVOD OBRAZOK--------------------*/
+.uvod_samsung_obrazok{
+    width: 100%;
+    
+}
+/*-------SEKCIA 2-----------*/
+.obrazok_samsung_1{
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    margin-bottom: 3vmin;
+}
+
+.obrazok_samsung_2{
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    margin-top: 5vmin;
+    margin-bottom: 3vmin;
+}
+.opis{
+    font-family: var(--Architect);
+    font-size: 17px;
+    color: black;
+}
+/*------------IPHONE--------------*/
+.uvod_iphone_nadpis{
+    font-family: var(--Architect);
+    font-weight: bold;
+}
+
+.uvod_iphone_text{
+    padding: 5vmin;
+    font-family: var(--Tajawal);
+    padding-left: 20vmin;
+    color: black;
+    font-size: 20px;
+}
+
+.uvod_iphone_obrazok{
+    width: 75%;
+    padding-top: 1rem;
+}
+/*-------SEKCIA 3-----------*/
+.section-3{
+    background-color: black;
+
+}
+
+.obrazok_iphone_1{
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    margin-bottom: 3vmin;
+}
+
+.obrazok_iphone_2{
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    margin-top: 5vmin;
+    margin-bottom: 3vmin;
+}
+.opis_1{
+    font-family: var(--Architect);
+    font-size: 17px;
+    color: whitesmoke;
+}
+
+/*-------O MNE----------*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
+#obrazok_id{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*-------VYPIS UDAJOV------*/
+.button{
+    padding: 50vmin;
+}

@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1201px) and (max-width: 1600px){
+    .uvod_samsung_obrazok{
+        width: 140%;
+    }
+
+
+    .uvod_iphone_obrazok{
+        width: 80%;
+    }
+    
+    .section-4{
+        padding: 19vmin;
+    }
+}

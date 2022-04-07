@@ -1,0 +1,28 @@
+@media only screen and (max-width: 500px) {
+
+    .obrazok_uvod{
+       width: 100%;
+    }
+    .panel{
+        left: 2vmin;
+        top: 15vmin; 
+         
+    }
+    
+    .person{
+        margin-bottom: 10vmin;
+    }
+    
+    .uvod_samsung_obrazok{
+        width: 100%;
+    }
+    
+    .uvod_iphone_obrazok{
+        width: 80%;
+    }
+    
+    .section-4{
+        padding: 5vmin;
+    }
+}
+    
